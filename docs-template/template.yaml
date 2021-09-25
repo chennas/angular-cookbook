@@ -59,6 +59,7 @@ spec:
       action: fetch:template
       input:
         url: ./skeleton
+        cookiecutterCompat: true
         values:
           name: '{{ parameters.name }}'
           description: '{{ parameters.description }}' 
